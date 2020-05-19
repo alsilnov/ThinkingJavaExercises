@@ -10,9 +10,6 @@ class Shared {
     public void addRef() {
         ++refCount;
     }
-    public void subRef() {
-        --refCount;
-    }
     protected void finalize() {
         if(refCount != 0) {
             System.out.println("NOT Disposing " + this + " because refCount == " + refCount);
