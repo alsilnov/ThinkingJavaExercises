@@ -85,6 +85,7 @@ public abstract class Rodent {
             i.run();
             i.eat();
             i.sleep();
+            System.out.println();
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.silnov.thinkingjavaexercises.exercise9;
+package com.silnov.thinkingjavaexercises.exercise7;
 
 import java.util.Random;
 import java.util.Date;
@@ -20,7 +20,7 @@ class RandomRodentGenerator {
 }
 
 
-class Rat extends Rodent {
+class Rat implements Rodent {
     private String name = "Rat";
     public void eat() {
         System.out.println("Rat.eat()");
@@ -35,7 +35,7 @@ class Rat extends Rodent {
         return name;
     }
 }
-class Mouse extends Rodent {
+class Mouse implements Rodent {
     private String name = "Mouse";
     public void eat() {
         System.out.println("Mouse.eat()");
@@ -50,7 +50,7 @@ class Mouse extends Rodent {
         return name;
     }
 }
-class Squirrel extends Rodent {
+class Squirrel implements Rodent {
     private String name = "Squirrel";
     public void eat() {
         System.out.println("Squirrel.eat()");
@@ -66,20 +66,12 @@ class Squirrel extends Rodent {
     }
 }
 interface Rodent {
-    private final String name = "Rodent";
-    default void eat() {
-        System.out.println("Rodent.eat()");
-    }
-    default void sleep() {
-        System.out.println("Rodent.sleep()");
-    }
-    default void run() {
-        System.out.println("Rodent.run()");
-    }
-	default String toString() {
-        return name;
-    }
-    private static RandomRodentGenerator gen = new RandomRodentGenerator();
+    public void eat();
+    public void sleep();
+    public void run();
+    public String toString();
+
+    public static RandomRodentGenerator gen = new RandomRodentGenerator();
     public static void main(String[] args) {
         Rodent[] rodents = new Rodent[10];
         for(int i = 0; i < 10; ++i) {

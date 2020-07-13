@@ -1,10 +1,10 @@
-package com.silnov.thinkingjavaexercises.exercise4.cl;
-import com.silnov.thinkingjavaexercises.exercise4.inter.*;
+package com.silnov.thinkingjavaexercises.exercise5.cl;
+import com.silnov.thinkingjavaexercises.exercise5.inter.TestInterface;
 
 public class TestClass implements TestInterface {
-    /*public void foo() {
+    public void foo() {
         System.out.println("foo()");;
-    }*/
+    }
     public void bar() {
         System.out.println("bar()");;
     }
