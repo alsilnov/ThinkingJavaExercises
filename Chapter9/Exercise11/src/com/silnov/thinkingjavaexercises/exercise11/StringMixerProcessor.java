@@ -13,9 +13,12 @@ class StringMixer {
     public String process(String str) {
         char[] ch = new char[str.length()];
         for(int i = 0; i < str.length() - 1; i += 2) {
-            char tmp = ch[i];
-            ch[i] = ch[i + 1];
-            ch[i + 1] = tmp;
+            //char tmp = ch[i];
+            ch[i] = str.charAt(i + 1);
+            ch[i + 1] = str.charAt(i);
+        }
+        if(str.length() % 2 != 0) {
+            ch[str.length() - 1] = str.charAt(str.length() - 1);
         }
         return new String(ch);
     }
