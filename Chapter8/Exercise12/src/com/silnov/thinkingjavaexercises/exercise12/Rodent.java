@@ -110,6 +110,7 @@ public class Rodent {
 	public String toString() {
         return name;
     }
+    
     private static RandomRodentGenerator gen = new RandomRodentGenerator();
     public static void main(String[] args) {
         Rodent[] rodents = new Rodent[10];
