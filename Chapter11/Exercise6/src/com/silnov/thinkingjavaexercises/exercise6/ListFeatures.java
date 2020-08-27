@@ -13,22 +13,22 @@ public class ListFeatures {
   }
   public static void main(String[] args) {
     Random rand = new Random(3203);
-    List<String> strs = randomString(10, 23);
+    List<String> strs = randomString(20, 27);
     System.out.println("1: " + strs);
-    String h = Integer.toString(rand.nextInt(23));
+    String h = Integer.toString(rand.nextInt(27));
     strs.add(h); // Automatically resizes
     System.out.println("2: " + strs);
     System.out.println("3: " + strs.contains(h));
     strs.remove(h); // Remove by object
     String p = strs.get(2);
     System.out.println("4: " +  p + " " + strs.indexOf(p));
-    String cymric = Integer.toString(rand.nextInt(22));
+    String cymric = Integer.toString(rand.nextInt(27));
     System.out.println("5: " + strs.indexOf(cymric));
     System.out.println("6: " + strs.remove(cymric));
     // Must be the exact object:
     System.out.println("7: " + strs.remove(p));
     System.out.println("8: " + strs);
-    strs.add(3, Integer.toString(rand.nextInt(22))); // Insert at an index
+    strs.add(3, Integer.toString(rand.nextInt(27))); // Insert at an index
     System.out.println("9: " + strs);
     List<String> sub = strs.subList(1, 4);
     System.out.println("subList: " + sub);
@@ -50,7 +50,7 @@ public class ListFeatures {
     System.out.println("14: " + copy);
     copy.removeAll(sub); // Only removes exact objects
     System.out.println("15: " + copy);
-    copy.set(1, Integer.toString(rand.nextInt(22))); // Replace an element
+    copy.set(1, Integer.toString(rand.nextInt(27))); // Replace an element
     System.out.println("16: " + copy);
     copy.addAll(2, sub); // Insert a list in the middle
     System.out.println("17: " + copy);
@@ -58,7 +58,7 @@ public class ListFeatures {
     strs.clear(); // Remove all elements
     System.out.println("19: " + strs);
     System.out.println("20: " + strs.isEmpty());
-    strs.addAll(randomString(10, 22));
+    strs.addAll(randomString(10, 37));
     System.out.println("21: " + strs);
     Object[] o = strs.toArray();
     System.out.println("22: " + o[3]);
