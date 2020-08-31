@@ -1,7 +1,6 @@
 package com.silnov.thinkingjavaexercises.exercise10;
 
-import java.util.Random;
-import java.util.Date;
+import java.util.*;
 import java.text.SimpleDateFormat;
 
 class RandomRodentGenerator {
@@ -81,16 +80,19 @@ public class Rodent {
     }
     private static RandomRodentGenerator gen = new RandomRodentGenerator();
     public static void main(String[] args) {
-        Rodent[] rodents = new Rodent[10];
+        List<Rodent> rodents = new ArrayList<Rodent>();
         for(int i = 0; i < 10; ++i) {
-            rodents[i] = gen.next();
+            rodents.add(gen.next());
         }
-        for(Rodent i : rodents) {
-            i = gen.next();
+        Iterator rodentsIterator = rodents.iterator();
+        while(rodentsIterator.hasNext()) {
+            Rodent i = (Rodent)rodentsIterator.next();
+            System.out.println("----------------------------------");
             System.out.println(i);
             i.run();
             i.eat();
             i.sleep();
+            System.out.println("----------------------------------");
         }
     }
 }
