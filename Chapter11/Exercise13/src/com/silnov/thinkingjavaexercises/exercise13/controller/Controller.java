@@ -10,15 +10,11 @@ public class Controller {
     // Make a copy so you're not modifying the list
     // while you're selecting the elements in it:
     LinkedList<Event> eventListCopy = new LinkedList<>(eventList);
-    Iterator<Event> it = eventList.iterator();
+    ListIterator<Event> it = eventListCopy.listIterator();
     while(it.hasNext()) {
-      Event e = it.next();
-      if(e.ready()) {
-        System.out.println(e);
-        e.action();
-        eventList.remove(e);
-      }
-      
+      it.next().action();
+      it.previous();
+      System.out.println(it.next());
     }
     /*
     for(Event e : new ArrayList<>(eventList))
