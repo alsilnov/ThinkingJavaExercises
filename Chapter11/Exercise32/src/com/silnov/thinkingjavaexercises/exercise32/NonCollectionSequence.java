@@ -21,7 +21,7 @@ class PetSequence {
   protected Pet[] pets = Pets.array(8);
 }
 
-public class NonCollectionSequence extends PetSequence  implements Iterable {
+public class NonCollectionSequence extends PetSequence  implements Iterable<Pet> {
   public Iterator<Pet> iterator() {
     return new Iterator<Pet>() {
       private int index = 0;
@@ -68,7 +68,7 @@ public class NonCollectionSequence extends PetSequence  implements Iterable {
   public static void main(String[] args) {
     NonCollectionSequence nc =
       new NonCollectionSequence();
-      for (Pet p : nc.pets) {
+      for (Pet p : nc) {
         System.out.print(p + " ");
       }
       System.out.println();
