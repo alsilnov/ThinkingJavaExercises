@@ -40,7 +40,7 @@ public class Test {
 	public static void main(String[] args) {
 		try {
 			Test fc = 
-				new Test(exercisePath + fileInExercisePath + "AlwaysFinally.java");
+				new Test(exercisePath + fileInExercisePath + "Test.java");
 			try {
 				String s;
 				int i = 1;
