@@ -2,8 +2,6 @@ package com.silnov.thinkingjavaexercises.exercise24;
 import java.io.*;
 
 public class Test {
-	private static String fileInExercisePath = "Exercise24/src/com/silnov/thinkingjavaexercises/exercise24/";
-	private static String exercisePath = System.getProperty("user.dir") + "/";
 	private BufferedReader in;
 	public Test(String fname) throws Exception {
 		try {
@@ -40,13 +38,14 @@ public class Test {
 	public static void main(String[] args) {
 		try {
 			Test fc = 
-				new Test(exercisePath + fileInExercisePath + "AlwaysFinally.java");
+				new Test("AlwaysFinally.java");
 			try {
 				String s;
 				int i = 1;
 				while((s = fc.getLine()) != null) {
-					System.out.println(i + " " + s);
-					i++;
+					// code to print to new file:
+					// println(i + " " + s);
+					// i++;
 				}
 			} catch(Exception e) {
 				System.out.println("Exception caught in main()");
