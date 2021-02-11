@@ -1,7 +1,5 @@
 package com.silnov.thinkingjavaexercises.exercise1;
 import java.util.*;
-
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 class WaterSource {
   private String s;
   WaterSource() {
