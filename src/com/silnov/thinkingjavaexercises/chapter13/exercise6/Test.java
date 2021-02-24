@@ -1,19 +1,23 @@
-package com.silnov.thinkingjavaexercises.chapter13.excercise6;
+package com.silnov.thinkingjavaexercises.chapter13.exercise6;
 
 import java.util.*;
-
+/**
+ * Test
+ */
 public class Test {
-	int i = 0;
-	long l = 0;
-	float f = 0.0f;
-	double d = 0.0;
-	Test(int i, long l, float f, double d) {
-		this.i = i;
+	int i;
+	long l;
+	float f;
+	double d;
+	Test(int i, long l,	float f, double d){
+		this.i =i;
 		this.l = l;
 		this.f = f;
 		this.d = d;
-	}	
+	}
+	@Override
 	public String toString() {
+		// TODO Auto-generated method stub
 		return String.format("i = %d\nl = %d\nf = %.16g\nd = %.16g\n", i, l, f, d);
 	}
 	public static void main(String[] args) {
@@ -24,4 +28,5 @@ public class Test {
 		System.out.println(ex);
 		System.out.println(exMax);
 	}
+	
 }
