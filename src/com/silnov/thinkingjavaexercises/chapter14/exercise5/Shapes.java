@@ -6,7 +6,6 @@ import java.util.stream.*;
 // Visit http://OnJava8.com for more book information.
 
 abstract class Shape {
-  void draw() { System.out.println(this + ".draw()"); }
   @Override
   public abstract String toString();
 }
