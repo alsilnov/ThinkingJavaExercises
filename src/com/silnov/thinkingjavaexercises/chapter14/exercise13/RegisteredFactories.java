@@ -96,7 +96,7 @@ public class RegisteredFactories {
 			System.out.print(part .getClass().getSimpleName() + " ");
 			counter.count(part );
 		}
-		System.out.println();
+		System.out.println(); 
 		System.out.println(counter);
   }
 }
