@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IterableFibonacci",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise7.IterableFibonacci",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomList",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise6.RandomList",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
             "name": "Launch LinkedStack",
             "request": "launch",
             "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise5.LinkedStack",
