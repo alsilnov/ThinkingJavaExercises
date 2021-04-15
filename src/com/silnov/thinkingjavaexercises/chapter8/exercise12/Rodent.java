@@ -1,4 +1,4 @@
-package com.silnov.thinkingjavaexercises.chapter8.exercise9;
+package com.silnov.thinkingjavaexercises.chapter8.exercise12;
 
 import java.util.Random;
 import java.util.Date;
