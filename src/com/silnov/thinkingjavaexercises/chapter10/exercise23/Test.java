@@ -1,43 +1,55 @@
 package com.silnov.thinkingjavaexercises.chapter10.exercise23;
+
 interface U {
     void uMethod1();
+
     void uMethod2();
+
     void uMethod3();
 }
+
 class A {
     U aMethod() {
         return new U() {
             public void uMethod1() {
                 System.out.println("uMethod1");
             }
+
             public void uMethod2() {
                 System.out.println("uMethod2");
             }
+
             public void uMethod3() {
                 System.out.println("uMethod3");
             }
         };
     }
 }
+
 class B {
     U[] uArray;
+
     B(int i) {
         uArray = new U[i];
     }
+
     void uArrayAdd(U ref, int i) {
         uArray[i] = ref;
     }
+
     void uArrayRemove(int i) {
         uArray[i] = null;
-    }    
+    }
+
     void uArrayIteration() {
-        for(U tmp : uArray) {
+        for (U tmp : uArray) {
             tmp.uMethod1();
             tmp.uMethod2();
             tmp.uMethod3();
         }
     }
 }
+
 public class Test {
     public static void main(String[] args) {
         A a1 = new A();

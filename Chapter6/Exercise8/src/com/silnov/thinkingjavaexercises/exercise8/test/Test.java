@@ -1,22 +1,30 @@
 package com.silnov.thinkingjavaexercises.exercise8.test;
+
 class Connection {
     private static int connectionsCount = 0;
+
     private Connection() {
         System.out.println(++connectionsCount);
     }
-    public static  Connection getConnection() {
+
+    public static Connection getConnection() {
         return new Connection();
     }
-    public static  int getConnectionCount() {
+
+    public static int getConnectionCount() {
         return connectionsCount;
     }
 }
+
 class ConnectionManager {
-    private ConnectionManager() {}
+    private ConnectionManager() {
+    }
+
     private static Connection[] connections = new Connection[10];
     private static int connectionsCount = 0;
+
     public static Connection getConnection() {
-        if(connectionsCount < 10) {
+        if (connectionsCount < 10) {
             connections[connectionsCount] = Connection.getConnection();
             ++connectionsCount;
             return connections[connectionsCount - 1];
@@ -25,8 +33,9 @@ class ConnectionManager {
             return null;
         }
 
-    } 
+    }
 }
+
 public class Test {
     public static void main(String[] args) {
         Connection con = ConnectionManager.getConnection();

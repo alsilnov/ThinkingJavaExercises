@@ -1,4 +1,5 @@
 package com.silnov.thinkingjavaexercises.exercise1.test;
+
 import com.silnov.thinkingjavaexercises.exercise1.simpleclass.*;
 
 class Test {

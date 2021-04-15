@@ -3,4 +3,3 @@ class Test {
         Test test = new Test();
     }
 }
-

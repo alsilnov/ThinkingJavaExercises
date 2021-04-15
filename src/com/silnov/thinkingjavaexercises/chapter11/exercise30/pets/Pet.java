@@ -5,6 +5,11 @@
 package com.silnov.thinkingjavaexercises.chapter11.exercise30.pets;
 
 public class Pet extends Individual {
-  public Pet(String name) { super(name); }
-  public Pet() { super(); }
+    public Pet(String name) {
+        super(name);
+    }
+
+    public Pet() {
+        super();
+    }
 }

@@ -5,6 +5,11 @@
 package com.silnov.thinkingjavaexercises.chapter11.exercise30.pets;
 
 public class Cymric extends Manx {
-  public Cymric(String name) { super(name); }
-  public Cymric() { super(); }
+    public Cymric(String name) {
+        super(name);
+    }
+
+    public Cymric() {
+        super();
+    }
 }

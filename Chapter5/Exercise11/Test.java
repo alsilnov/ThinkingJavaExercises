@@ -1,11 +1,12 @@
 class Test {
 
-@Override
-protected void finalize() throws Throwable {
-    // TODO Auto-generated method stub
+    @Override
+    protected void finalize() throws Throwable {
+        // TODO Auto-generated method stub
 
-    System.out.println("x");
-}
+        System.out.println("x");
+    }
+
     public static void main(String[] args) {
         Test test = new Test();
         test = null;
@@ -13,4 +14,3 @@ protected void finalize() throws Throwable {
         System.gc();
     }
 }
-

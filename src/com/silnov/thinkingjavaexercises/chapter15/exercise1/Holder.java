@@ -26,16 +26,11 @@ public class Holder<T> {
     }
 
     public static void main(String[] args) {
-        List<Holder> petsholderList = new ArrayList<>(Arrays.asList(
-            new Holder<Cat>(new Cat()),
-            new Holder<Mutt>(new Mutt()),
-            new Holder<Mouse>(new Mouse()),
-            new Holder<Pug>(new Pug()),
-            new Holder<Rat>(new Rat()),
-            new Holder<Dog>(new Dog())
-            ));
-            for (Holder holder : petsholderList) {
-                System.out.println(holder.getA());
-            }
+        List<Holder> petsholderList = new ArrayList<>(
+                Arrays.asList(new Holder<Cat>(new Cat()), new Holder<Mutt>(new Mutt()), new Holder<Mouse>(new Mouse()),
+                        new Holder<Pug>(new Pug()), new Holder<Rat>(new Rat()), new Holder<Dog>(new Dog())));
+        for (Holder holder : petsholderList) {
+            System.out.println(holder.getA());
+        }
     }
 }

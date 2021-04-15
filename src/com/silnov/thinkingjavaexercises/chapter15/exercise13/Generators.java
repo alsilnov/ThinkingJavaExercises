@@ -79,6 +79,7 @@ public class Generators {
             coll.add(gen.next());
         return coll;
     }
+
     public static <T> LinkedList<T> fill(LinkedList<T> coll, Generator<T> gen, int n) {
         for (int i = 0; i < n; i++)
             coll.add(gen.next());

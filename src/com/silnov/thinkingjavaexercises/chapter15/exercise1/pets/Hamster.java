@@ -5,6 +5,11 @@
 package com.silnov.thinkingjavaexercises.chapter15.exercise1.pets;
 
 public class Hamster extends Rodent {
-  public Hamster(String name) { super(name); }
-  public Hamster() { super(); }
+    public Hamster(String name) {
+        super(name);
+    }
+
+    public Hamster() {
+        super();
+    }
 }

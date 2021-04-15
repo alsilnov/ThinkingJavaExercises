@@ -5,11 +5,17 @@
 package com.silnov.thinkingjavaexercises.chapter14.exercise15.pets;
 
 public class Manx extends Cat {
-  public Manx(String name) { super(name); }
-  public Manx() { super(); }
-  public static class Factory implements com.silnov.thinkingjavaexercises.chapter14.exercise15.Factory<Manx> {
-    public Manx create() {
-      return new Manx();
+    public Manx(String name) {
+        super(name);
     }
-  } 
+
+    public Manx() {
+        super();
+    }
+
+    public static class Factory implements com.silnov.thinkingjavaexercises.chapter14.exercise15.Factory<Manx> {
+        public Manx create() {
+            return new Manx();
+        }
+    }
 }

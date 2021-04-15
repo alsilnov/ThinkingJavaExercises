@@ -5,11 +5,17 @@
 package com.silnov.thinkingjavaexercises.chapter14.exercise15.pets;
 
 public class EgyptianMau extends Cat {
-  public EgyptianMau(String name) { super(name); }
-  public EgyptianMau() { super(); }
-  public static class Factory implements com.silnov.thinkingjavaexercises.chapter14.exercise15.Factory<EgyptianMau> {
-    public EgyptianMau create() {
-      return new EgyptianMau();
+    public EgyptianMau(String name) {
+        super(name);
     }
-  } 
+
+    public EgyptianMau() {
+        super();
+    }
+
+    public static class Factory implements com.silnov.thinkingjavaexercises.chapter14.exercise15.Factory<EgyptianMau> {
+        public EgyptianMau create() {
+            return new EgyptianMau();
+        }
+    }
 }

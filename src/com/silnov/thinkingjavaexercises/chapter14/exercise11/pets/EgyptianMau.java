@@ -5,6 +5,11 @@
 package com.silnov.thinkingjavaexercises.chapter14.exercise11.pets;
 
 public class EgyptianMau extends Cat {
-  public EgyptianMau(String name) { super(name); }
-  public EgyptianMau() { super(); }
+    public EgyptianMau(String name) {
+        super(name);
+    }
+
+    public EgyptianMau() {
+        super();
+    }
 }

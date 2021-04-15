@@ -5,6 +5,11 @@
 package com.silnov.thinkingjavaexercises.chapter11.exercise32.pets;
 
 public class Pug extends Dog {
-  public Pug(String name) { super(name); }
-  public Pug() { super(); }
+    public Pug(String name) {
+        super(name);
+    }
+
+    public Pug() {
+        super();
+    }
 }

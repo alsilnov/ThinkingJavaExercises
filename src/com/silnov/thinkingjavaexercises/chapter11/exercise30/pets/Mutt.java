@@ -5,6 +5,11 @@
 package com.silnov.thinkingjavaexercises.chapter11.exercise30.pets;
 
 public class Mutt extends Dog {
-  public Mutt(String name) { super(name); }
-  public Mutt() { super(); }
+    public Mutt(String name) {
+        super(name);
+    }
+
+    public Mutt() {
+        super();
+    }
 }

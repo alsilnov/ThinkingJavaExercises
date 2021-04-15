@@ -3,13 +3,17 @@
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 package com.silnov.thinkingjavaexercises.chapter15.exercise3;
+
 public class Tuple3<A, B, C> extends Tuple2<A, B> {
-  public final C a3;
-  public Tuple3(A a, B b, C c) {
-    super(a, b);
-    a3 = c;
-  }
-  @Override public String rep() {
-    return super.rep() + ", " + a3;
-  }
+    public final C a3;
+
+    public Tuple3(A a, B b, C c) {
+        super(a, b);
+        a3 = c;
+    }
+
+    @Override
+    public String rep() {
+        return super.rep() + ", " + a3;
+    }
 }

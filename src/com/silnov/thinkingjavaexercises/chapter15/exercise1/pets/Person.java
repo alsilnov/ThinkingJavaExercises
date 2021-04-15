@@ -5,5 +5,7 @@
 package com.silnov.thinkingjavaexercises.chapter15.exercise1.pets;
 
 public class Person extends Individual {
-  public Person(String name) { super(name); }
+    public Person(String name) {
+        super(name);
+    }
 }

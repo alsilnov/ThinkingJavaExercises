@@ -1,5 +1,7 @@
 package com.silnov.thinkingjavaexercises.chapter15.exercise15;
+
 import static com.silnov.thinkingjavaexercises.chapter15.exercise15.Tuple.*;
+
 public class TupleTest {
     static TwoTuple<String, Integer> f() {
         return tuple("hi", 47);

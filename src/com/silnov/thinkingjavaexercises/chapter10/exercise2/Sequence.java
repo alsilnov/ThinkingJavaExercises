@@ -2,54 +2,67 @@ package com.silnov.thinkingjavaexercises.chapter10.exercise2;
 
 class Word {
     String word;
+
     Word(String word) {
         this.word = word;
     }
+
     public String toString() {
         return word;
     }
 }
+
 interface Selector {
     boolean end();
+
     Object current();
+
     void next();
 }
 
-public  class Sequence {
+public class Sequence {
     private Object[] items;
     private int next = 0;
+
     public Sequence(int size) {
         items = new Object[size];
     }
-	public void add(Object x) {
-		if(next < items.length) {
+
+    public void add(Object x) {
+        if (next < items.length) {
             items[next++] = x;
         }
-	}
-	private class SequenceSelector implements Selector {
-		private int i = 0;
-		public boolean end() {
+    }
+
+    private class SequenceSelector implements Selector {
+        private int i = 0;
+
+        public boolean end() {
             return i == items.length;
         }
-		public Object current() {
+
+        public Object current() {
             return items[i];
         }
-		public void next() {
-            if(i < items.length) {
+
+        public void next() {
+            if (i < items.length) {
                 i++;
             }
-        } 
-	}
-	public Selector selector() {
-		return new SequenceSelector();
-	}
+        }
+    }
+
+    public Selector selector() {
+        return new SequenceSelector();
+    }
+
     public static void main(String[] args) {
         Sequence seq = new Sequence(10);
-        Selector sel  = seq.selector();
-        for(int i = 0; i < 10; ++i) {
+        Selector sel = seq.selector();
+        for (int i = 0; i < 10; ++i) {
             seq.add(new Word(Integer.toString(i)));
         }
-        while(!sel.end()) {
+        while (!sel.end()) {
             System.out.println(sel.current());
             sel.next();
         }

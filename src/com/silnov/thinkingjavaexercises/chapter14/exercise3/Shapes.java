@@ -7,35 +7,44 @@ package com.silnov.thinkingjavaexercises.chapter14.exercise3;
 import java.util.stream.*;
 
 abstract class Shape {
-  void draw() { System.out.println(this + ".draw()"); }
-  @Override
-  public abstract String toString();
+    void draw() {
+        System.out.println(this + ".draw()");
+    }
+
+    @Override
+    public abstract String toString();
 }
 
 class Circle extends Shape {
-  @Override
-  public String toString() { return "Circle"; }
+    @Override
+    public String toString() {
+        return "Circle";
+    }
 }
 
 class Square extends Shape {
-  @Override
-  public String toString() { return "Square"; }
+    @Override
+    public String toString() {
+        return "Square";
+    }
 }
+
 class Rhomboid extends Shape {
     @Override
-    public String toString() { return "Rhomboid"; }
-  }
-  
+    public String toString() {
+        return "Rhomboid";
+    }
+}
 
 class Triangle extends Shape {
-  @Override
-  public String toString() { return "Triangle"; }
+    @Override
+    public String toString() {
+        return "Triangle";
+    }
 }
 
 public class Shapes {
-  public static void main(String[] args) {
-    Stream.of(
-      new Circle(), new Square(), new Triangle(), new Rhomboid())
-      .forEach(Shape::draw);
-  }
+    public static void main(String[] args) {
+        Stream.of(new Circle(), new Square(), new Triangle(), new Rhomboid()).forEach(Shape::draw);
+    }
 }

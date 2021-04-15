@@ -5,6 +5,11 @@
 package com.silnov.thinkingjavaexercises.chapter14.exercise11.pets;
 
 public class Manx extends Cat {
-  public Manx(String name) { super(name); }
-  public Manx() { super(); }
+    public Manx(String name) {
+        super(name);
+    }
+
+    public Manx() {
+        super();
+    }
 }

@@ -5,11 +5,17 @@
 package com.silnov.thinkingjavaexercises.chapter14.exercise15.pets;
 
 public class Dog extends Pet {
-  public Dog(String name) { super(name); }
-  public Dog() { super(); }
-  public static class Factory implements com.silnov.thinkingjavaexercises.chapter14.exercise15.Factory<Dog> {
-    public Dog create() {
-      return new Dog();
+    public Dog(String name) {
+        super(name);
     }
-  } 
+
+    public Dog() {
+        super();
+    }
+
+    public static class Factory implements com.silnov.thinkingjavaexercises.chapter14.exercise15.Factory<Dog> {
+        public Dog create() {
+            return new Dog();
+        }
+    }
 }

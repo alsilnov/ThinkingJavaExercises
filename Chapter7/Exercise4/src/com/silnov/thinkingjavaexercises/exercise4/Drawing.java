@@ -1,6 +1,7 @@
 package com.silnov.thinkingjavaexercises.exercise4;
+
 class Drawing extends Art {
-    Drawing(){ 
+    Drawing() {
         System.out.println("Constructor Drawing()");
     }
 }

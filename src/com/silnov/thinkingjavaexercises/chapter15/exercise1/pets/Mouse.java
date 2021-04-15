@@ -5,6 +5,11 @@
 package com.silnov.thinkingjavaexercises.chapter15.exercise1.pets;
 
 public class Mouse extends Rodent {
-  public Mouse(String name) { super(name); }
-  public Mouse() { super(); }
+    public Mouse(String name) {
+        super(name);
+    }
+
+    public Mouse() {
+        super();
+    }
 }

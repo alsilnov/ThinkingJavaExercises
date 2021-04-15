@@ -5,6 +5,11 @@
 package com.silnov.thinkingjavaexercises.chapter14.exercise11.pets;
 
 public class Rat extends Rodent {
-  public Rat(String name) { super(name); }
-  public Rat() { super(); }
+    public Rat(String name) {
+        super(name);
+    }
+
+    public Rat() {
+        super();
+    }
 }

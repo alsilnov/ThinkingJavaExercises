@@ -3,70 +3,70 @@ package com.silnov.thinkingjavaexercises.chapter15.exercise11;
 import java.util.*;
 
 class New {
-  public static <K, V> Map<K, V> map() {
-    return new HashMap<K, V>();
-  }
+    public static <K, V> Map<K, V> map() {
+        return new HashMap<K, V>();
+    }
 
-  public static <T> List<T> arrayList() {
-    return new ArrayList<T>();
-  }
+    public static <T> List<T> arrayList() {
+        return new ArrayList<T>();
+    }
 
-  public static <T> List<T> linkedList() {
-    return new LinkedList<T>();
-  }
+    public static <T> List<T> linkedList() {
+        return new LinkedList<T>();
+    }
 
-  public static <T> Set<T> set() {
-    return new HashSet<T>();
-  }
+    public static <T> Set<T> set() {
+        return new HashSet<T>();
+    }
 
-  public static <T> Queue<T> queue() {
-    return new LinkedList<T>();
-  }
+    public static <T> Queue<T> queue() {
+        return new LinkedList<T>();
+    }
 }
 
 class A {
-  public String toString() {
-    return "A";
-  }
+    public String toString() {
+        return "A";
+    }
 }
 
 class B {
-  public String toString() {
-    return "B";
-  }
+    public String toString() {
+        return "B";
+    }
 }
 
 class C extends B {
-  public String toString() {
-    return "C";
-  }
+    public String toString() {
+        return "C";
+    }
 }
 
 public class GenericMethods {
-  public static void main(String[] args) {
-    A a = new A();
-    B b = new B();
-    C c = new C();
+    public static void main(String[] args) {
+        A a = new A();
+        B b = new B();
+        C c = new C();
 
-    List<C> lc = New.arrayList();
-    lc.add(new C());
+        List<C> lc = New.arrayList();
+        lc.add(new C());
 
-    Map<A, List<? extends B>> mab = New.map();
-    mab.put(a, lc);
+        Map<A, List<? extends B>> mab = New.map();
+        mab.put(a, lc);
 
-    List<B> llb = New.linkedList();
-    llb.add(new B());
+        List<B> llb = New.linkedList();
+        llb.add(new B());
 
-    Set<A> sa = New.set();
-    sa.add(new A());
+        Set<A> sa = New.set();
+        sa.add(new A());
 
-    Queue<B> qb = New.queue();
-    qb.add(new B());
-    
-    System.out.println(lc);
-    System.out.println(mab);
-    System.out.println(llb);
-    System.out.println(sa);
-    System.out.println(qb);
-  }
+        Queue<B> qb = New.queue();
+        qb.add(new B());
+
+        System.out.println(lc);
+        System.out.println(mab);
+        System.out.println(llb);
+        System.out.println(sa);
+        System.out.println(qb);
+    }
 }

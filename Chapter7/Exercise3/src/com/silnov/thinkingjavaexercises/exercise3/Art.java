@@ -1,6 +1,7 @@
 package com.silnov.thinkingjavaexercises.exercise3;
+
 class Art {
-    Art() { 
+    Art() {
         System.out.println("Constructor Art()");
     }
 }

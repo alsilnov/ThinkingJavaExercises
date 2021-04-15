@@ -4,13 +4,13 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.*;
 
 class StoryCharacter {
-  private static long counter = 0;
-  private final long id = counter++;
+    private static long counter = 0;
+    private final long id = counter++;
 
-  public String toString() {
-    return getClass().getSimpleName() + " " + id;
+    public String toString() {
+        return getClass().getSimpleName() + " " + id;
 
-  }
+    }
 }
 
 class BadGuy extends StoryCharacter {
@@ -33,59 +33,59 @@ class JabbaTheHut extends BadGuy {
 }
 
 interface Generator<T> {
-  T next();
+    T next();
 }
 
 public class CharacterGenerator implements Generator<StoryCharacter>, Iterable<StoryCharacter> {
-  private Class<?>[] types = { DarthVader.class, JabbaTheHut.class, LukeSkywalker.class, Yoda.class };
-  private static Random rand = new Random(47);
+    private Class<?>[] types = { DarthVader.class, JabbaTheHut.class, LukeSkywalker.class, Yoda.class };
+    private static Random rand = new Random(47);
 
-  public CharacterGenerator() {
-  }
-
-  private int size = 0;
-
-  public CharacterGenerator(int sz) {
-    size = sz;
-  }
-
-  @Override
-  public StoryCharacter next() {
-    try {
-      return (StoryCharacter) types[rand.nextInt(types.length)].newInstance();
-      // Report programmer errors at run time:
-    } catch (IllegalAccessException | InstantiationException | IllegalArgumentException | SecurityException e) {
-      throw new RuntimeException(e);
+    public CharacterGenerator() {
     }
-  }
 
-  public static void main(String[] args) {
-    for (StoryCharacter i : new CharacterGenerator(18)) {
-      System.out.println(i + " ");
+    private int size = 0;
+
+    public CharacterGenerator(int sz) {
+        size = sz;
     }
-  }
 
-  @Override
-  public Iterator<StoryCharacter> iterator() {
-    // TODO Auto-generated method stub
-    return new Iterator<StoryCharacter>() {
-      int count = size;
+    @Override
+    public StoryCharacter next() {
+        try {
+            return (StoryCharacter) types[rand.nextInt(types.length)].newInstance();
+            // Report programmer errors at run time:
+        } catch (IllegalAccessException | InstantiationException | IllegalArgumentException | SecurityException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
-      @Override
-      public boolean hasNext() {
-        return count > 0;
-      }
+    public static void main(String[] args) {
+        for (StoryCharacter i : new CharacterGenerator(18)) {
+            System.out.println(i + " ");
+        }
+    }
 
-      @Override
-      public StoryCharacter next() {
-        count--;
-        return CharacterGenerator.this.next();
-      }
+    @Override
+    public Iterator<StoryCharacter> iterator() {
+        // TODO Auto-generated method stub
+        return new Iterator<StoryCharacter>() {
+            int count = size;
 
-      @Override
-      public void remove() { // Not implemented
-        throw new UnsupportedOperationException();
-      }
-    };
-  }
+            @Override
+            public boolean hasNext() {
+                return count > 0;
+            }
+
+            @Override
+            public StoryCharacter next() {
+                count--;
+                return CharacterGenerator.this.next();
+            }
+
+            @Override
+            public void remove() { // Not implemented
+                throw new UnsupportedOperationException();
+            }
+        };
+    }
 }
