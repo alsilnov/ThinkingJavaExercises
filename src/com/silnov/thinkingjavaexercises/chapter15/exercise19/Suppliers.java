@@ -1,4 +1,4 @@
-package com.silnov.thinkingjavaexercises.chapter15.exercise18;
+package com.silnov.thinkingjavaexercises.chapter15.exercise19;
 
 import java.util.*;
 import java.util.function.*;
