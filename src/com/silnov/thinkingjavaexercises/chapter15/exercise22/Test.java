@@ -8,7 +8,7 @@ class Building {
 class House extends Building {
     private String location;
     private Integer area;
-
+    public House(){}
     public House(String location, Integer area) {
         this.location = location;
         this.area = area;
@@ -30,7 +30,8 @@ public class Test<T> {
     /** To create instance of typename with constructors taking arguments args: */
     public Object createNew(String typename, Object... args) throws IllegalAccessException, InstantiationException,
             ClassNotFoundException, NoSuchMethodException, InvocationTargetException {
-        return Class.forName(typename).getConstructor(args[0].getClass(), args[1].getClass()).newInstance(args[0],
+
+        return kind.getConstructor(args[0].getClass(), args[1].getClass()).newInstance(args[0],
                 args[1]);
     }
 
