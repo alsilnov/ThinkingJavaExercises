@@ -30,6 +30,10 @@ class RandomInstrumentGenerator {
     }
 }
 
+enum Note {
+    MIDDLE_C, C_CHARP, B_FLAT;
+}
+
 class Instrument {
     void play(Note n) {
         System.out.println("Instrument.play() " + n);
