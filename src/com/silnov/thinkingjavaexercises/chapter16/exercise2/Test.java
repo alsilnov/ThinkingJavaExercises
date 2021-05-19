@@ -1,6 +1,5 @@
 package com.silnov.thinkingjavaexercises.chapter16.exercise2;
 
-import java.text.BreakIterator;
 import java.util.Arrays;
 
 class BerylliumSphere {
