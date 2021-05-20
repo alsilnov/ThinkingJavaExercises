@@ -6,526 +6,261 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch IterableFibonacci",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise7.IterableFibonacci",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch RandomList",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise6.RandomList",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch LinkedStack",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise5.LinkedStack",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch GenericSequence",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise4.GenericSequence",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Holder",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise3.Holder",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch GreenhouseController",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter10.exercise25.GreenhouseController",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise21.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
             "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter10.exercise26.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Holder",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise1.Holder",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch RegisteredFactories",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise24.RegisteredFactories",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch SimpleDynamicProxy",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise23.SimpleDynamicProxy",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch SimpleDynamicProxy",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise22.SimpleDynamicProxy",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch SimpleProxyDemo",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise21.SimpleProxyDemo",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch ToyTest",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise19.ToyTest",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch ShowMethods",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise18.ShowMethods",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch ShowMethods",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise17.ShowMethods",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch CofeeFactoryTest",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise16.CofeeFactoryTest",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch PetCount3",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise15.PetCount3",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch RegisteredFactories",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise14.RegisteredFactories",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch RegisteredFactories",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise13.RegisteredFactories",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch CoffeeGenerator",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise12.CoffeeGenerator",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch PetCount3",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise11.PetCount3",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise20.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
             "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise11.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch CollectionSequence",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter11.exercise31.CollectionSequence",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise19.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
             "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise10.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter6.exercise4.test.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
             "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise9.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter6.exercise8.test.Test",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
+            "name": "Launch Foreign",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter6.exercise9.foreign.Foreign",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tank",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter5.exercise12.Tank",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
+            "name": "Launch B",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter7.exercise15.b.B",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
+            "name": "Launch B",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter7.exercise15.B.B",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
+            "name": "Launch DetergentDelegation",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter7.exercise11.DetergentDelegation",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
             "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise8.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter7.exercise1.test.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch SweetShop",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise7.SweetShop",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Shapes",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise6.Shapes",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Shapes",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise5.Shapes",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Shapes",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise4.Shapes",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Shapes",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise3.Shapes",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch ToyTest",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise2.ToyTest",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch ToyTest",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter14.exercise1.ToyTest",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestRegularExpression",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise11.TestRegularExpression",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
         },
         {
             "type": "java",
             "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise1.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise18.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(1)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise10.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise17.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(2)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise11.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise16.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Sequence",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise12.Sequence",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise15.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(3)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise13.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise14.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch OnOffSwitch",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise14.OnOffSwitch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise13.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch WithFinally",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise15.WithFinally",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise12.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch CADSystem",
+            "name": "Launch Music8",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise16.CADSystem",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter8.exercise8.Music8",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Frog",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise17.Frog",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise11.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch LostMessage",
+            "name": "Launch ArrayOfGeneric",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise18.LostMessage",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise10.ArrayOfGeneric",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch LostMessage(1)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise19.LostMessage",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise9.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(4)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise2.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise8.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch StormyInning",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise20.StormyInning",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise7.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(5)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise21.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise6.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(6)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise22.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise5.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(7)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise23.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise4.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(8)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise24.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise3.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(9)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise25.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise2.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch MainException",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise26.MainException",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise1.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(10)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise27.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise28.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(11)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise28.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise27.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch StormyInning(1)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise29.StormyInning",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise26.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(12)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise3.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise25.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Human",
+            "name": "Launch FactoryConstraint",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise30.Human",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise23.FactoryConstraint",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(13)",
+            "name": "Launch Test",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise4.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter8.exercise1.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
         {
             "type": "java",
-            "name": "Launch Test(14)",
+            "name": "Launch ClassTypeCapture",
             "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise5.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Test(15)",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise6.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Test(16)",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise7.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Test(17)",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise8.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Test(18)",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter12.exercise9.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch SprinklerSystem",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise1.SprinklerSystem",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestRegularExpression",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise10.TestRegularExpression",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch InfiniteRecursion",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise2.InfiniteRecursion",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Turtle",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise3.Turtle",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch ReceiptBuilder",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise4.ReceiptBuilder",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Test(19)",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise5.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Test(20)",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise6.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Test(21)",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise7.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Test(22)",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise8.Test",
-            "projectName": "ThinkingJavaExercises_faf7b596"
-        },
-        {
-            "type": "java",
-            "name": "Launch Test(23)",
-            "request": "launch",
-            "mainClass": "com.silnov.thinkingjavaexercises.chapter13.exercise9.Test",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter15.exercise24.ClassTypeCapture",
             "projectName": "ThinkingJavaExercises_faf7b596"
         }
     ]
