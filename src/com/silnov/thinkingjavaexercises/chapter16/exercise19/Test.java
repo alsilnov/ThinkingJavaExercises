@@ -1,5 +1,7 @@
 package com.silnov.thinkingjavaexercises.chapter16.exercise19;
 
+import java.util.Arrays;
+
 public class Test {
     private int n;
 
@@ -16,6 +18,6 @@ public class Test {
         for (int i = 0; i < a1.length; i++) {
             a2[i] = new Test(1);
         }
-        System.out.println(a1.equals(a2));
+        System.out.println(Arrays.equals(a1, a2));
     }
 }
