@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Test",
             "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise22.Test",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
             "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise21.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
