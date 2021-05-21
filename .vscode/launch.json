@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Launch Test",
             "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise25.Test",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise24.Test",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise23.Test",
+            "projectName": "ThinkingJavaExercises_faf7b596"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
             "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise22.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
