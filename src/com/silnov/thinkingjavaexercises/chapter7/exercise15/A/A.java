@@ -1,4 +1,4 @@
-package com.silnov.thinkingjavaexercises.chapter7.exercise15.a;
+package com.silnov.thinkingjavaexercises.chapter7.exercise15.A;
 
 public class A {
     protected void printName() {
