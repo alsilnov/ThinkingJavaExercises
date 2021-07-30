@@ -1,0 +1,41 @@
+1:    package src.com.silnov.thinkingjavaexercises.chapter18.exercise12;
+2:    
+3:    import java.io.BufferedReader;
+4:    import java.io.File;
+5:    import java.io.FileNotFoundException;
+6:    import java.io.FileReader;
+7:    import java.io.IOException;
+8:    import java.io.PrintWriter;
+9:    import java.util.*;
+10:    
+11:    public class Test {
+12:    
+13:        public static void main(String[] args) {
+14:            System.out.println("------------------------------------------------------------------");
+15:            String fileName;
+16:            if (args.length == 1) {
+17:                fileName = args[0];
+18:            } else {
+19:                fileName = "src\\com\\silnov\\thinkingjavaexercises\\chapter18\\exercise12\\Test.java";
+20:            }
+21:            File f = new File(fileName);
+22:            System.out.println(f.getAbsolutePath());
+23:            System.out.println("------------------------------------------------------------------");
+24:            LinkedList<String> list = new LinkedList<>();
+25:            try (BufferedReader in = new BufferedReader(new FileReader(f));) {
+26:                String s;
+27:                while ((s = in.readLine()) != null) {
+28:                    list.add(s);
+29:                }
+30:                PrintWriter out = new PrintWriter("src\\com\\silnov\\thinkingjavaexercises\\chapter18\\exercise12\\Test.txt");
+31:                for (String string : list) {
+32:                    System.out.println(string);
+33:                    out.println(string);
+34:                }
+35:                out.close();
+36:                System.out.println("------------------------------------------------------------------");
+37:            } catch (Exception e) {
+38:                System.out.println("IOException");
+39:            }
+40:        }
+41:    }

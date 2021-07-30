@@ -1,10 +1,9 @@
-package src.com.silnov.thinkingjavaexercises.chapter18.exercise12;
+package src.com.silnov.thinkingjavaexercises.chapter18.exercise13;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
+import java.io.LineNumberReader;
 import java.io.PrintWriter;
 import java.util.*;
 
@@ -24,10 +23,13 @@ public class Test {
         LinkedList<String> list = new LinkedList<>();
         try (BufferedReader in = new BufferedReader(new FileReader(f));) {
             String s;
-            while ((s = in.readLine()) != null) {
-                list.add(s);
+            LineNumberReader lineNumber = new LineNumberReader(in);
+            while ((s = lineNumber.readLine()) != null) {
+                list.add(lineNumber.getLineNumber() + ":    " + s);
             }
-            PrintWriter out = new PrintWriter("src\\com\\silnov\\thinkingjavaexercises\\chapter18\\exercise12\\Test.txt");
+            PrintWriter out = new PrintWriter(
+                    "src\\com\\silnov\\thinkingjavaexercises\\chapter18\\exercise13\\Test.txt");
+
             for (String string : list) {
                 System.out.println(string);
                 out.println(string);
