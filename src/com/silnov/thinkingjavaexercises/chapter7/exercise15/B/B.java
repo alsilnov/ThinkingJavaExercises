@@ -1,6 +1,6 @@
-package com.silnov.thinkingjavaexercises.chapter7.exercise15.b;
+package com.silnov.thinkingjavaexercises.chapter7.exercise15.B;
 
-import com.silnov.thinkingjavaexercises.chapter7.exercise15.a.*;
+import com.silnov.thinkingjavaexercises.chapter7.exercise15.B.*;
 
 public class B extends A {
     public static void main(String[] args) {

@@ -8,6 +8,69 @@
             "type": "java",
             "name": "Launch Test",
             "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter17.exercise12.Test",
+            "projectName": "ThinkingJavaExercises_5c3c8937"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter17.exercise11.Test",
+            "projectName": "ThinkingJavaExercises_5c3c8937"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter17.exercise10.Test",
+            "projectName": "ThinkingJavaExercises_5c3c8937"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter17.exercise9.Test",
+            "projectName": "ThinkingJavaExercises_5c3c8937"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter17.exercise8.Test",
+            "projectName": "ThinkingJavaExercises_5c3c8937"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter17.exercise7.Test",
+            "projectName": "ThinkingJavaExercises_5c3c8937"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter17.exercise6.Test",
+            "projectName": "ThinkingJavaExercises_5c3c8937"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter17.exercise4.Test",
+            "projectName": "ThinkingJavaExercises_5c3c8937"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise25.Test",
+            "projectName": "ThinkingJavaExercises_5c3c8937"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
             "mainClass": "com.silnov.thinkingjavaexercises.chapter16.exercise25.Test",
             "projectName": "ThinkingJavaExercises_faf7b596"
         },
