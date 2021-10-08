@@ -1,4 +1,4 @@
-package src.com.silnov.thinkingjavaexercises.chapter18.exercise9;
+package com.silnov.thinkingjavaexercises.chapter18.exercise9;
 
 import java.io.BufferedReader;
 import java.io.File;
